@@ -1,0 +1,607 @@
+.headerNavBox {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  color: #fff; }
+  .headerNavBox .headerNav {
+    width: 1240px;
+    margin: 0 auto; }
+    .headerNavBox .headerNav .headerLeft {
+      float: left; }
+      .headerNavBox .headerNav .headerLeft .iconfont {
+        font-size: 24px;
+        line-height: 80px; }
+    .headerNavBox .headerNav .headercenter {
+      float: right; }
+      .headerNavBox .headerNav .headercenter li {
+        float: left; }
+        .headerNavBox .headerNav .headercenter li a {
+          display: block;
+          font-size: 14px;
+          color: #fff;
+          line-height: 82px;
+          padding: 0 20px; }
+        .headerNavBox .headerNav .headercenter li a:hover {
+          color: #00b9f2; }
+        .headerNavBox .headerNav .headercenter li .aCss {
+          color: #666; }
+    .headerNavBox .headerNav .headerRight {
+      float: right; }
+      .headerNavBox .headerNav .headerRight .headerRightF {
+        float: left;
+        margin: 24px 5px 0 10px;
+        line-height: 29px;
+        border-radius: 20px;
+        border: 1px solid #FFF;
+        background: #fff; }
+        .headerNavBox .headerNav .headerRight .headerRightF #headerSearch {
+          height: 20px;
+          display: block;
+          float: left;
+          font-size: 14;
+          border: none;
+          margin: 5px 0 0 15px; }
+        .headerNavBox .headerNav .headerRight .headerRightF .iconfont {
+          float: right;
+          display: block;
+          color: #666;
+          font-size: 16px;
+          margin: 0px 10px 0 10px; }
+      .headerNavBox .headerNav .headerRight .iconfontwi {
+        float: left;
+        font-size: 28px;
+        color: #fff;
+        margin: 24px 3px 0px; }
+  .headerNavBox .headeListBox {
+    background-color: #fff;
+    position: absolute;
+    z-index: 2;
+    width: 100%; }
+    .headerNavBox .headeListBox .headerList {
+      width: 1240px;
+      margin: 0 auto;
+      height: 0;
+      overflow: hidden;
+      position: relative; }
+      .headerNavBox .headeListBox .headerList .headerlist {
+        padding-bottom: 10px; }
+        .headerNavBox .headeListBox .headerList .headerlist a {
+          float: left;
+          margin: 0 5px;
+          cursor: pointer; }
+          .headerNavBox .headeListBox .headerList .headerlist a dt {
+            width: 120px;
+            padding: 0 6px;
+            margin-right: 10px;
+            height: 120px;
+            margin-bottom: 4px; }
+            .headerNavBox .headeListBox .headerList .headerlist a dt img {
+              width: 100%; }
+          .headerNavBox .headeListBox .headerList .headerlist a dd {
+            font-size: 12px;
+            color: #000;
+            width: 120px;
+            text-align: center;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            padding: 0 6px; }
+
+.headerBannerBox {
+  position: relative;
+  top: -82px;
+  z-index: 0;
+  width: 1903px;
+  height: 670px;
+  overflow: hidden; }
+  .headerBannerBox .headerBanner {
+    width: 13321px;
+    height: 670px;
+    position: absolute;
+    left: 0;
+    z-index: 1; }
+    .headerBannerBox .headerBanner li {
+      float: left;
+      height: 670px;
+      width: 100vw;
+      overflow: hidden;
+      display: inline-block; }
+      .headerBannerBox .headerBanner li a {
+        width: 100%;
+        float: left; }
+        .headerBannerBox .headerBanner li a img {
+          height: 100%;
+          float: left;
+          margin-left: -14%; }
+  .headerBannerBox .bannerSpan {
+    position: absolute;
+    z-index: 5;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -96px; }
+    .headerBannerBox .bannerSpan span {
+      float: left;
+      background-color: #fff;
+      border: 1px solid;
+      border-color: rgba(255, 255, 255, 0);
+      height: 6px;
+      width: 6px;
+      border-radius: 50%;
+      margin: 0 10px; }
+    .headerBannerBox .bannerSpan .active {
+      float: left;
+      background-color: rgba(255, 255, 255, 0);
+      border: 1px solid;
+      border-color: #fff;
+      height: 6px;
+      width: 6px;
+      border-radius: 50%;
+      margin: 0 10px; }
+
+.welfareBox {
+  width: 100%;
+  margin-top: -37px;
+  background-color: #fff; }
+  .welfareBox .welfare {
+    width: 1240px;
+    margin: 0 auto; }
+    .welfareBox .welfare a {
+      float: left;
+      width: 310px;
+      height: 187px;
+      margin-bottom: 45px;
+      text-align: center; }
+      .welfareBox .welfare a dt {
+        padding: 0 55px;
+        width: 190px; }
+        .welfareBox .welfare a dt img {
+          width: 100%; }
+      .welfareBox .welfare a dd {
+        font-size: 20px;
+        height: 30px;
+        line-height: 30px;
+        color: #111; }
+      .welfareBox .welfare a p {
+        font-size: 14px;
+        height: 20px;
+        line-height: 20px;
+        color: #999; }
+
+.meizuPhoneBox {
+  width: 100%;
+  background-color: #eee; }
+  .meizuPhoneBox h3 {
+    width: 100%;
+    padding: 50px 0 5px 0;
+    font-size: 32px;
+    text-align: center;
+    background-color: #eee; }
+  .meizuPhoneBox .meizuPhoneBanner a {
+    position: relative; }
+    .meizuPhoneBox .meizuPhoneBanner a img {
+      width: 100%; }
+  .meizuPhoneBox .meizuPhoneBanner a:hover img {
+    opacity: 0.9; }
+  .meizuPhoneBox .meizuPhone {
+    width: 1240px;
+    margin: 0 auto;
+    background-color: #eee; }
+    .meizuPhoneBox .meizuPhone li:nth-child(-n+3) {
+      width: 610px;
+      height: 610px;
+      float: left;
+      margin: 10px 5px 0 5px;
+      background-color: #FFF;
+      position: relative; }
+      .meizuPhoneBox .meizuPhone li:nth-child(-n+3) div {
+        text-align: center;
+        margin-top: 48px; }
+        .meizuPhoneBox .meizuPhone li:nth-child(-n+3) div h2 {
+          font-size: 28px;
+          line-height: 42px;
+          color: #333; }
+        .meizuPhoneBox .meizuPhone li:nth-child(-n+3) div em {
+          color: #333;
+          font-size: 18px;
+          margin-bottom: 3px;
+          line-height: 27px; }
+        .meizuPhoneBox .meizuPhone li:nth-child(-n+3) div p {
+          position: relative;
+          display: inline-block;
+          color: #c00;
+          font-size: 22px;
+          line-height: 33px;
+          padding-left: 14px; }
+      .meizuPhoneBox .meizuPhone li:nth-child(-n+3) dt {
+        padding-left: 75px;
+        width: 460px;
+        height: 460px; }
+        .meizuPhoneBox .meizuPhone li:nth-child(-n+3) dt img {
+          width: 100%;
+          height: 100%; }
+      .meizuPhoneBox .meizuPhone li:nth-child(-n+3) dd {
+        height: 60px;
+        width: 60px;
+        background-color: red;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        color: #fff;
+        border-radius: 50%;
+        line-height: 60px;
+        text-align: center; }
+    .meizuPhoneBox .meizuPhone li:nth-child(n+3) {
+      width: 300px;
+      height: 375px;
+      float: left;
+      margin: 10px 5px 0 5px;
+      background-color: #FFF;
+      position: relative; }
+      .meizuPhoneBox .meizuPhone li:nth-child(n+3) div {
+        text-align: center;
+        margin-top: 0px; }
+        .meizuPhoneBox .meizuPhone li:nth-child(n+3) div h2 {
+          font-size: 16px;
+          line-height: 24px;
+          margin-bottom: 2px;
+          color: #333; }
+        .meizuPhoneBox .meizuPhone li:nth-child(n+3) div em {
+          color: #333;
+          font-size: 14px;
+          margin-bottom: 3px;
+          line-height: 21px; }
+        .meizuPhoneBox .meizuPhone li:nth-child(n+3) div p {
+          position: relative;
+          display: inline-block;
+          color: #c00;
+          font-size: 22px;
+          line-height: 33px;
+          padding-left: 14px; }
+      .meizuPhoneBox .meizuPhone li:nth-child(n+3) dt {
+        padding-left: 30px;
+        padding-top: 30px;
+        width: 230px;
+        height: 230px; }
+        .meizuPhoneBox .meizuPhone li:nth-child(n+3) dt img {
+          width: 100%;
+          height: 100%; }
+      .meizuPhoneBox .meizuPhone li:nth-child(n+3) dd {
+        height: 60px;
+        width: 60px;
+        background-color: red;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        color: #fff;
+        border-radius: 50%;
+        line-height: 60px;
+        text-align: center; }
+    .meizuPhoneBox .meizuPhone li:hover {
+      transform: translate(2px, -3px);
+      transition: 0.5s;
+      box-shadow: 0px 0px 10px #888; }
+
+.meizuVoiceBox {
+  width: 100%;
+  background-color: #eee; }
+  .meizuVoiceBox h3 {
+    width: 100%;
+    padding: 50px 0 5px 0;
+    font-size: 32px;
+    text-align: center;
+    background-color: #eee; }
+  .meizuVoiceBox .meizuVoiceBanner a {
+    position: relative; }
+    .meizuVoiceBox .meizuVoiceBanner a img {
+      width: 100%; }
+  .meizuVoiceBox .meizuVoiceBanner a:hover img {
+    opacity: 0.9; }
+  .meizuVoiceBox .meizuVoice {
+    width: 1240px;
+    margin: 0 auto;
+    background-color: #eee; }
+    .meizuVoiceBox .meizuVoice li {
+      width: 300px;
+      height: 375px;
+      float: left;
+      margin: 10px 5px 0 5px;
+      background-color: #FFF;
+      position: relative; }
+      .meizuVoiceBox .meizuVoice li div {
+        text-align: center;
+        width: 300px;
+        margin-top: 0px; }
+        .meizuVoiceBox .meizuVoice li div h2 {
+          text-align: center;
+          font-size: 16px;
+          line-height: 24px;
+          margin-bottom: 2px;
+          color: #333; }
+        .meizuVoiceBox .meizuVoice li div em {
+          color: #333;
+          font-size: 14px;
+          margin-bottom: 3px;
+          line-height: 21px; }
+        .meizuVoiceBox .meizuVoice li div p {
+          position: relative;
+          display: inline-block;
+          color: #c00;
+          font-size: 22px;
+          line-height: 33px;
+          padding-left: 14px; }
+        .meizuVoiceBox .meizuVoice li div span {
+          color: #999;
+          padding-left: 15px;
+          font-size: 14px;
+          font-weight: 900;
+          text-decoration: line-through; }
+      .meizuVoiceBox .meizuVoice li dt {
+        padding-left: 30px;
+        padding-top: 30px;
+        width: 230px;
+        height: 230px; }
+        .meizuVoiceBox .meizuVoice li dt img {
+          width: 100%;
+          height: 100%; }
+    .meizuVoiceBox .meizuVoice li:nth-child(4n+1) {
+      width: 300px;
+      height: 375px;
+      float: left;
+      margin: 10px 5px 0 5px;
+      background-color: #FFF;
+      position: relative; }
+      .meizuVoiceBox .meizuVoice li:nth-child(4n+1) div {
+        position: absolute;
+        bottom: 30px;
+        text-align: center;
+        margin-top: 0px; }
+        .meizuVoiceBox .meizuVoice li:nth-child(4n+1) div h2 {
+          font-size: 21px;
+          line-height: 24px;
+          margin-bottom: 2px;
+          font-weight: 700;
+          color: #FFF; }
+        .meizuVoiceBox .meizuVoice li:nth-child(4n+1) div em {
+          color: #FFF;
+          width: 303px;
+          font-size: 14px;
+          margin-bottom: 3px;
+          line-height: 21px; }
+        .meizuVoiceBox .meizuVoice li:nth-child(4n+1) div p {
+          position: relative;
+          display: inline-block;
+          color: #ebce6b;
+          font-size: 22px;
+          line-height: 33px;
+          padding-left: 14px;
+          font-weight: 900; }
+        .meizuVoiceBox .meizuVoice li:nth-child(4n+1) div span {
+          color: #fff;
+          padding-left: 15px;
+          font-size: 14px;
+          font-weight: 900;
+          text-decoration: line-through; }
+      .meizuVoiceBox .meizuVoice li:nth-child(4n+1) dt {
+        padding-left: 0px;
+        padding-top: 0px;
+        width: 300px;
+        height: 375px; }
+        .meizuVoiceBox .meizuVoice li:nth-child(4n+1) dt img {
+          width: 100%;
+          height: 100%; }
+    .meizuVoiceBox .meizuVoice li:hover {
+      transform: translate(2px, -3px);
+      transition: 0.5s;
+      box-shadow: 0px 0px 10px #888; }
+
+.communityHotBox {
+  width: 100%;
+  background-color: #eee; }
+  .communityHotBox h3 {
+    width: 100%;
+    padding: 50px 0 5px 0;
+    font-size: 32px;
+    text-align: center;
+    background-color: #eee; }
+  .communityHotBox .communityHot {
+    width: 1240px;
+    margin: 0 auto;
+    background-color: #eee; }
+    .communityHotBox .communityHot li {
+      width: 300px;
+      height: 388px;
+      float: left;
+      margin: 10px 5px 0 5px;
+      background-color: #FFF;
+      position: relative; }
+      .communityHotBox .communityHot li a {
+        display: block; }
+        .communityHotBox .communityHot li a dt {
+          width: 300; }
+          .communityHotBox .communityHot li a dt img {
+            width: 100%; }
+        .communityHotBox .communityHot li a dd {
+          overflow: hidden;
+          height: 42px;
+          line-height: 42px;
+          margin-top: 10px;
+          padding: 0 15px; }
+          .communityHotBox .communityHot li a dd img {
+            width: 38px;
+            border-radius: 50%;
+            float: left; }
+          .communityHotBox .communityHot li a dd em {
+            float: left;
+            margin-left: 15px;
+            color: #666; }
+        .communityHotBox .communityHot li a p {
+          padding: 10px 15px 15px;
+          font-size: 16px;
+          line-height: 27px;
+          height: 66px;
+          color: #666; }
+        .communityHotBox .communityHot li a span {
+          color: #999;
+          font-size: 14px;
+          display: block;
+          padding: 0 15px;
+          margin-top: 10px; }
+
+.flymeIndexBox {
+  width: 100%;
+  background-color: #eee;
+  padding-bottom: 45px; }
+  .flymeIndexBox h3 {
+    width: 100%;
+    padding: 50px 0 5px 0;
+    font-size: 32px;
+    text-align: center;
+    background-color: #eee; }
+  .flymeIndexBox .flymeIndex {
+    width: 1240px;
+    margin: 0 auto;
+    background-color: #eee; }
+    .flymeIndexBox .flymeIndex li {
+      width: 300px;
+      float: left;
+      margin: 10px 5px 0 5px;
+      background-color: #FFF;
+      position: relative; }
+      .flymeIndexBox .flymeIndex li img {
+        width: 100%; }
+      .flymeIndexBox .flymeIndex li p {
+        font-size: 16px;
+        text-align: center;
+        line-height: 54px;
+        color: #666; }
+    .flymeIndexBox .flymeIndex li:nth-child(1) {
+      width: 610px;
+      float: left;
+      margin: 10px 5px 0 5px;
+      background-color: #FFF;
+      position: relative; }
+      .flymeIndexBox .flymeIndex li:nth-child(1) img {
+        width: 100%; }
+
+.meizuFooterBox {
+  background: #fff;
+  width: 100%;
+  padding: 48px 0 20px; }
+  .meizuFooterBox .meizuFooterTop {
+    width: 1240px;
+    height: 85px;
+    margin: 0 auto;
+    border-bottom: 1px #999 solid; }
+    .meizuFooterBox .meizuFooterTop .meizuFooterTopL {
+      float: left; }
+      .meizuFooterBox .meizuFooterTop .meizuFooterTopL a {
+        float: left; }
+        .meizuFooterBox .meizuFooterTop .meizuFooterTopL a dt {
+          margin: 0 50px;
+          width: 50px;
+          height: 39px; }
+          .meizuFooterBox .meizuFooterTop .meizuFooterTopL a dt img {
+            width: 100%; }
+        .meizuFooterBox .meizuFooterTop .meizuFooterTopL a dd {
+          font-size: 12px;
+          color: #999;
+          line-height: 30px;
+          text-align: center; }
+    .meizuFooterBox .meizuFooterTop .meizuFooterTopR {
+      float: right;
+      margin-top: -18px; }
+      .meizuFooterBox .meizuFooterTop .meizuFooterTopR p {
+        color: #999;
+        font-size: 12px;
+        line-height: 30px; }
+      .meizuFooterBox .meizuFooterTop .meizuFooterTopR em {
+        display: block;
+        color: #00c3f5;
+        font-size: 25px;
+        font-weight: 400;
+        margin-top: -6px;
+        line-height: 40px; }
+      .meizuFooterBox .meizuFooterTop .meizuFooterTopR b {
+        display: block;
+        height: 30px;
+        padding: 0 16px;
+        text-align: center;
+        line-height: 30px;
+        color: #fff;
+        border-radius: 20px;
+        margin-top: 3px;
+        font-size: 14px;
+        background: #0bbbef; }
+  .meizuFooterBox .meizuFooterBottom {
+    width: 1240px;
+    margin: 0 auto;
+    padding-top: 28px; }
+    .meizuFooterBox .meizuFooterBottom ul li {
+      padding-right: 15px;
+      border-right: 1px solid #d6d6d6;
+      float: left;
+      font-size: 12px;
+      line-height: 18px;
+      margin-right: 15px; }
+      .meizuFooterBox .meizuFooterBottom ul li a {
+        color: #999; }
+    .meizuFooterBox .meizuFooterBottom ul li:last-child {
+      padding-right: 15px;
+      border-right: 0px solid #d6d6d6;
+      float: left;
+      font-size: 12px;
+      line-height: 18px;
+      margin-right: 15px; }
+      .meizuFooterBox .meizuFooterBottom ul li:last-child a {
+        color: #999; }
+    .meizuFooterBox .meizuFooterBottom .meizuFooterBottomL {
+      font-size: 12px;
+      padding-top: 14px;
+      float: left;
+      color: #999; }
+      .meizuFooterBox .meizuFooterBottom .meizuFooterBottomL a {
+        font-size: 12px;
+        color: #999;
+        padding: 0 5px; }
+      .meizuFooterBox .meizuFooterBottom .meizuFooterBottomL .iconfont {
+        font-size: 12px; }
+    .meizuFooterBox .meizuFooterBottom .meizuFooterBottomR {
+      float: right;
+      padding-top: 14px; }
+      .meizuFooterBox .meizuFooterBottom .meizuFooterBottomR li {
+        float: left; }
+        .meizuFooterBox .meizuFooterBottom .meizuFooterBottomR li a {
+          color: #999; }
+      .meizuFooterBox .meizuFooterBottom .meizuFooterBottomR li:first-child a:hover {
+        color: green; }
+      .meizuFooterBox .meizuFooterBottom .meizuFooterBottomR li:nth-child(3) a:hover {
+        color: green; }
+      .meizuFooterBox .meizuFooterBottom .meizuFooterBottomR li:nth-child(5) a:hover {
+        color: yellow; }
+      .meizuFooterBox .meizuFooterBottom .meizuFooterBottomR li:last-child a:hover {
+        color: red; }
+      .meizuFooterBox .meizuFooterBottom .meizuFooterBottomR b {
+        margin: 0 10px;
+        float: left;
+        color: #999; }
+
+.sidebarBox {
+  position: absolute;
+  right: 0px;
+  top: 400px;
+  background-color: #fff;
+  border: 1px solid #999; }
+  .sidebarBox .sidebar li {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center; }
+    .sidebarBox .sidebar li a {
+      display: block; }
+      .sidebarBox .sidebar li a .iconfont {
+        font-size: 56px;
+        color: #999; }
+  .sidebarBox .sidebar li:last-child {
+    border-top: 1px solid #999; }
+  .sidebarBox .sidebar li:hover a .iconfont {
+    color: red; }

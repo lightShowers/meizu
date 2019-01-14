@@ -1,0 +1,771 @@
+@charset "utf-8";
+// header
+.headerNavBox{
+	width:100%;
+	position:relative;
+	z-index:2;
+	color:#fff;
+	.headerNav{
+		width: 1240px;
+		margin:0 auto;
+		.headerLeft{
+			float:left;
+			.iconfont{
+				font-size:24px;
+				line-height:80px;
+			}
+		}
+		.headercenter{
+			float:right;
+			li{
+				float:left;
+				a{
+					display:block;
+					font-size:14px;
+					color:#fff;
+					line-height:82px;
+					padding:0 20px ;
+				}
+				a:hover{
+					color:#00b9f2;
+				}
+				.aCss{
+					color:#666;
+				}
+			}
+		}
+		.headerRight{
+			float:right;
+			.headerRightF{
+				float:left;
+				margin:24px 5px 0 10px;
+				line-height: 29px;
+				border-radius:20px;
+				border:1px solid #FFF;
+				background:#fff;
+				#headerSearch{
+					height:20px;
+					display:block;
+					float:left;
+					font-size:14;
+					border:none;
+					margin:5px 0 0 15px;
+				}
+				.iconfont{
+					float:right;
+					display:block;
+					color:#666;
+					font-size:16px;
+					margin:0px 10px 0 10px;
+				}
+			}
+			.iconfontwi{
+				float:left;
+				font-size:28px;
+				color:#fff;
+				margin:24px 3px 0px;
+			}
+		}
+	}
+
+//headerlist xuan xiang ka
+	.headeListBox{
+		background-color:#fff;
+		position:absolute;
+		z-index:2;
+		width:100%;
+		.headerList{
+			width: 1240px;
+			margin:0 auto;
+			height:0;
+			overflow:hidden;
+			position:relative;
+			.headerlist{
+				padding-bottom:10px;
+				a{
+					float:left;
+					margin:0 5px;
+					cursor:pointer;
+					dt{
+						width:120px;
+						padding:0 6px;
+						margin-right:10px;
+						height:120px;
+						margin-bottom:4px;
+						img{
+							width:100%;
+						}
+					}
+					dd{
+						font-size:12px;
+						color:#000;
+						width:120px;
+						text-align:center;
+						overflow:hidden; 
+						text-overflow:ellipsis; 
+						white-space:nowrap;
+						padding:0 6px;
+					}
+				}
+			}
+		}
+		
+	}
+}
+
+	
+
+//banner  
+.headerBannerBox{
+	position:relative;
+	top:-82px;
+	z-index:0;
+	width:1903px;
+	height:670px;
+	overflow:hidden;
+	.headerBanner{
+		width:13321px;
+		height:670px;
+		position:absolute;
+		left:0;
+		z-index:1;
+		li{
+			float:left;
+			height:670px;
+			width:100vw;
+			overflow:hidden;
+			display:inline-block;
+			a{
+				width:100%;
+				float:left;
+
+				img{
+					height:100%;
+					float:left;
+					margin-left:-14%;
+				}
+			}
+		}
+	}
+	
+	.bannerSpan{
+		position:absolute;
+		z-index:5;
+		bottom:20px;
+		left:50%;
+		margin-left:-96px;
+		span{
+			float:left;
+			background-color:#fff;
+			border:1px solid;
+			border-color:rgba(255,255,255,0);
+			height:6px;
+			width:6px;
+			border-radius:50%;
+			margin:0 10px;
+		}
+		.active{
+			float:left;
+			background-color:rgba(255,255,255,0);
+			border:1px solid;
+			border-color:#fff;
+			height:6px;
+			width:6px;
+			border-radius:50%;
+			margin:0 10px;
+		}
+	}
+
+
+} 
+//福利welfare
+.welfareBox{
+	width:100%;
+	margin-top:-37px;
+	background-color:#fff;
+	.welfare{
+		width:1240px;
+		margin:0 auto;
+		a{
+			float:left;
+			width:310px;
+			height:187px;
+			margin-bottom:45px;
+			text-align:center;
+			dt{
+				padding:0 55px;
+				width:190px;
+				img{
+					width:100%;
+				}
+			}
+			dd{
+				font-size:20px;
+				height:30px;
+				line-height:30px;
+				color:#111;
+			}
+			p{
+				font-size:14px;
+				height:20px;
+				line-height:20px;
+				color:#999;
+			}
+		}
+	}
+}
+//<!-- 魅族手机 -->
+.meizuPhoneBox{
+	width:100%;
+	background-color:#eee;
+	
+	h3{
+		width:100%;
+		padding:50px 0 5px 0;
+		font-size:32px;
+		text-align:center;
+		background-color:#eee;
+	}
+	.meizuPhoneBanner{
+		a{
+			position:relative;
+			img{
+				width:100%;
+			}
+		}
+		a:hover img{
+			opacity: 0.9;
+		}
+	}
+	.meizuPhone{
+		width:1240px;
+		margin:0 auto;
+		background-color:#eee;
+		li:nth-child(-n+3){
+			width:610px;
+			height:610px;
+			float:left;
+			margin:10px 5px 0 5px;
+			background-color:#FFF;
+			position:relative;
+			div{
+				text-align:center;
+				margin-top:48px;
+				h2{
+					font-size:28px;
+					line-height:42px;
+					color:#333;
+				}
+				em{
+					color: #333;
+				    font-size: 18px;
+				    margin-bottom: 3px;
+				    line-height:27px;
+				}
+				p{
+					position: relative;
+					display: inline-block;
+					color: #c00;
+					font-size: 22px;
+					line-height:33px;
+					padding-left: 14px;
+				}
+			}
+			dt{
+				padding-left:75px;
+				width:460px;
+				height:460px;
+				img{
+					width:100%;
+					height:100%;
+				}
+			}
+			dd{
+				height:60px;
+				width:60px;
+				background-color:red;
+				position:absolute;
+				top:20px;
+				left:20px;
+				color:#fff;
+				border-radius:50%;
+				line-height:60px;
+				text-align:center;
+			}
+		}
+		li:nth-child(n+3){
+			width:300px;
+			height:375px;
+			float:left;
+			margin:10px 5px 0 5px;
+			background-color:#FFF;
+			position:relative;
+			div{
+				text-align:center;
+				margin-top:0px;
+				h2{
+					font-size:16px;
+					line-height:24px;
+					margin-bottom:2px;
+					color:#333;
+				}
+				em{
+					color: #333;
+				    font-size: 14px;
+				    margin-bottom: 3px;
+				    line-height:21px;
+				}
+				p{
+					position: relative;
+					display: inline-block;
+					color: #c00;
+					font-size: 22px;
+					line-height:33px;
+					padding-left: 14px;
+				}
+			}
+			dt{
+				padding-left:30px;
+				padding-top:30px;
+				width:230px;
+				height:230px;
+				img{
+					width:100%;
+					height:100%;
+				}
+			}
+			dd{
+				height:60px;
+				width:60px;
+				background-color:red;
+				position:absolute;
+				top:20px;
+				left:20px;
+				color:#fff;
+				border-radius:50%;
+				line-height:60px;
+				text-align:center;
+			}
+		}
+		li:hover{
+			transform: translate(2px, -3px);
+			transition:0.5s;
+			box-shadow: 0px 0px 10px #888;
+		}
+	}
+}
+
+//魅族声学 智能配件  生活周边
+.meizuVoiceBox{
+	width:100%;
+	background-color:#eee;
+	
+	h3{
+		width:100%;
+		padding:50px 0 5px 0;
+		font-size:32px;
+		text-align:center;
+		background-color:#eee;
+	}
+	.meizuVoiceBanner{
+		a{
+			position:relative;
+			img{
+				width:100%;
+			}
+		}
+		a:hover img{
+			opacity: 0.9;
+		}
+	}
+	.meizuVoice{
+		width:1240px;
+		margin:0 auto;
+		background-color:#eee;
+		li{
+			width:300px;
+			height:375px;
+			float:left;
+			margin:10px 5px 0 5px;
+			background-color:#FFF;
+			position:relative;
+			div{
+				text-align:center;
+				width:300px;
+				margin-top:0px;
+				h2{
+					text-align:center;
+					font-size:16px;
+					line-height:24px;
+					margin-bottom:2px;
+					color:#333;
+				}
+				em{
+					color: #333;
+				    font-size: 14px;
+				    margin-bottom: 3px;
+				    line-height:21px;
+				}
+				p{
+					position: relative;
+					display: inline-block;
+					color: #c00;
+					font-size: 22px;
+					line-height:33px;
+					padding-left: 14px;
+				}
+				span{
+					color:#999;
+					padding-left:15px;
+					font-size:14px;
+					font-weight:900;
+					text-decoration:line-through;
+				}
+			}
+			dt{
+				padding-left:30px;
+				padding-top:30px;
+				width:230px;
+				height:230px;
+				img{
+					width:100%;
+					height:100%;
+				}
+			}
+		}
+		li:nth-child(4n+1){
+			width:300px;
+			height:375px;
+			float:left;
+			margin:10px 5px 0 5px;
+			background-color:#FFF;
+			position:relative;
+			div{
+				position:absolute;
+				bottom:30px;
+				text-align:center;
+				margin-top:0px;
+				h2{
+					font-size:21px;
+					line-height:24px;
+					margin-bottom:2px;
+					font-weight: 700;
+					color:#FFF;
+				}
+				em{
+					color: #FFF;
+					width:303px;
+				    font-size: 14px;
+				    margin-bottom: 3px;
+				    line-height:21px;
+				}
+				p{
+					position: relative;
+					display: inline-block;
+					color: #ebce6b;
+					font-size: 22px;
+					line-height:33px;
+					padding-left: 14px;
+					font-weight:900;
+				}
+				span{
+					color:#fff;
+					padding-left:15px;
+					font-size:14px;
+					font-weight:900;
+					text-decoration:line-through;
+				}
+			}
+			dt{
+				padding-left:0px;
+				padding-top:0px;
+				width:300px;
+				height:375px;
+				img{
+					width:100%;
+					height:100%;
+				}
+			}
+		}
+		li:hover{
+			transform: translate(2px, -3px);
+			transition:0.5s;
+			box-shadow: 0px 0px 10px #888;
+		}
+	}
+}
+// 社区热帖
+.communityHotBox{
+	width:100%;
+	background-color:#eee;
+	
+	h3{
+		width:100%;
+		padding:50px 0 5px 0;
+		font-size:32px;
+		text-align:center;
+		background-color:#eee;
+	}
+	.communityHot{
+		width:1240px;
+		margin:0 auto;
+		background-color:#eee;
+		li{
+			width:300px;
+			height:388px;
+			float:left;
+			margin:10px 5px 0 5px;
+			background-color:#FFF;
+			position:relative;
+			a{
+				display:block;
+				dt{
+					width:300;
+					img{
+						width:100%;
+					}
+				}
+				dd{
+					overflow: hidden;
+				    height: 42px;
+				    line-height: 42px;
+				    margin-top: 10px;
+				    padding: 0 15px;
+				    img{
+				    	width:38px;
+				    	border-radius:50%;
+				    	float:left;
+				    }
+				    em{
+				    	float:left;
+				     	margin-left: 15px;
+				     	color:#666
+				    }
+				}
+				p{
+					padding: 10px 15px 15px;
+				    font-size: 16px;
+				    line-height: 27px;
+				    height: 66px;
+				    color:#666
+				}
+				span{
+					    color: #999;
+					    font-size: 14px;
+					    display: block;
+					    padding: 0 15px;
+					    margin-top: 10px;
+				}
+			}
+		}
+	}	
+		
+}
+.flymeIndexBox{
+	width:100%;
+	background-color:#eee;
+	padding-bottom:45px;
+	h3{
+		width:100%;
+		padding:50px 0 5px 0;
+		font-size:32px;
+		text-align:center;
+		background-color:#eee;
+	}
+	.flymeIndex{
+		width:1240px;
+		margin:0 auto;
+		background-color:#eee;
+		li{
+			width:300px;
+			float:left;
+			margin:10px 5px 0 5px;
+			background-color:#FFF;
+			position:relative;
+			img{
+				width:100%;
+			}
+			p{
+				font-size: 16px;
+				text-align:center;
+    			line-height: 54px;
+    			color:#666;
+			}
+		}
+		li:nth-child(1){
+			width:610px;
+			float:left;
+			margin:10px 5px 0 5px;
+			background-color:#FFF;
+			position:relative;
+			img{
+				width:100%;
+			}
+
+		}
+	}
+}
+
+//<!--底部导航  -->
+.meizuFooterBox{
+	background:#fff;
+	width:100%;
+	padding:48px 0 20px;
+	.meizuFooterTop{
+		width:1240px;
+		height:85px;
+		margin:0 auto;
+		border-bottom:1px #999 solid;
+		.meizuFooterTopL{
+			float:left;
+			a{
+				float:left;
+				dt{
+					margin:0 50px;
+					width:50px;
+					height:39px;
+					img{
+						width:100%;
+					}
+				}
+				dd{
+					font-size:12px;
+					color:#999;
+					line-height:30px;
+					text-align:center;
+				}
+			}
+		}
+		.meizuFooterTopR{
+			float:right;
+			margin-top:-18px;
+			p{
+				color: #999;
+			    font-size: 12px;
+			    line-height: 30px;
+			}
+			em{
+				display:block;
+				color: #00c3f5;
+			    font-size: 25px;
+			    font-weight: 400;
+			    margin-top: -6px;
+			    line-height: 40px;
+			}
+			b{
+				display:block;
+				height: 30px;
+			    padding: 0 16px;
+			    text-align: center;
+			    line-height: 30px;
+			    color: #fff;
+			    border-radius: 20px;
+			    margin-top: 3px;
+			    font-size: 14px;
+			    background: #0bbbef;
+			}
+		}
+	}
+	.meizuFooterBottom{
+		width:1240px;
+		margin:0 auto;
+		padding-top:28px;
+		ul{
+
+			li{
+				padding-right: 15px;
+			    border-right: 1px solid #d6d6d6;
+			    float: left;
+			    font-size:12px;
+			    line-height: 18px;
+			    margin-right: 15px;
+			    a{
+			    	color:#999;
+			    }
+			}
+			li:last-child{
+				padding-right: 15px;
+			    border-right: 0px solid #d6d6d6;
+			    float: left;
+			    font-size:12px;
+			    line-height: 18px;
+			    margin-right: 15px;
+			    a{
+			    	color:#999;
+			    }
+			}
+		}
+		.meizuFooterBottomL{
+			font-size:12px;
+			padding-top:14px;
+			float:left;
+			color:#999;
+			a{
+				font-size:12px;
+				color:#999;
+				padding:0 5px;
+			}
+			.iconfont{
+				font-size:12px;
+			}
+		}
+		.meizuFooterBottomR{
+			float:right;
+			padding-top:14px;
+			li{
+				float:left;
+				a{
+					color:#999;
+				}
+			}
+			li:first-child a:hover{
+				color:green;
+			}
+			li:nth-child(3) a:hover{
+				color:green;
+			}
+			li:nth-child(5) a:hover{
+				color:yellow;
+			}
+			li:last-child a:hover{
+				color:red;
+			}
+			b{
+				margin:0 10px;
+				float:left;
+				color:#999;
+			}
+		}
+	}
+}
+
+
+//从侧边栏
+.sidebarBox{
+	position:absolute;
+	right:0px;
+	top:400px;
+	background-color:#fff;
+	border:1px solid #999;
+	.sidebar{
+		li{
+			width:100px;
+			height:100px;
+			line-height:100px;
+			text-align:center;
+			a{
+				display:block;
+				.iconfont{
+					font-size:56px;
+					color:#999;
+				}
+			}
+		}
+		li:last-child{
+			border-top:1px solid #999;
+		}
+		li:hover a .iconfont{
+			color:red;
+		}
+	}
+}
