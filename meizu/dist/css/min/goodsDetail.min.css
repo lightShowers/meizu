@@ -115,6 +115,7 @@
           overflow: hidden;
           position: absolute;
           width: 298px;
+          z-index: 300;
           right: 0;
           display: none;
           margin-top: 20px;
@@ -257,7 +258,8 @@ main {
     position: relative;
     width: 1240px;
     height: 70px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    top: 0; }
     main h2 span {
       float: left;
       font-size: 26px;
@@ -323,9 +325,10 @@ main {
           height: 80px; }
           main .phoneContent .phoneContentPic ul li img {
             height: 100%; }
+        main .phoneContent .phoneContentPic ul .actives_style {
+          box-shadow: 0px 15px 10px -10px #ccc; }
     main .phoneContent .phoneContentRight {
-      background: yellow;
-      float: left;
+      float: right;
       position: relative;
       padding-top: 60px;
       margin-bottom: 12px; }
@@ -417,16 +420,271 @@ main {
         width: 640px; }
         main .phoneContent .phoneContentRight .phoneType p {
           float: left;
+          height: 80px;
           font-size: 12px;
           line-height: 42px;
-          color: #8c8c8c; }
+          color: #8c8c8c;
+          background: #fff; }
+          main .phoneContent .phoneContentRight .phoneType p span {
+            display: inline-block;
+            width: 14px;
+            height: 16px; }
         main .phoneContent .phoneContentRight .phoneType ul {
-          float: left; }
+          float: right;
+          width: 580px; }
           main .phoneContent .phoneContentRight .phoneType ul li {
             position: relative;
             float: left;
-            width: 176px;
             margin: 0 10px 10px 0;
             background-color: #fff;
             line-height: 40px;
             border: 1px solid #BFBFBF; }
+            main .phoneContent .phoneContentRight .phoneType ul li a {
+              display: block;
+              text-align: center;
+              color: #999;
+              width: 176px; }
+          main .phoneContent .phoneContentRight .phoneType ul .actives_phone {
+            border: 1px solid #333; }
+            main .phoneContent .phoneContentRight .phoneType ul .actives_phone a {
+              color: #333; }
+      main .phoneContent .phoneContentRight .inter_style dl dt {
+        font-size: 12px;
+        line-height: 42px;
+        float: left;
+        color: #8c8c8c; }
+      main .phoneContent .phoneContentRight .inter_style dl dd {
+        float: left;
+        position: relative;
+        float: left;
+        width: 176px;
+        margin: 0 10px 10px 12px;
+        line-height: 42px;
+        border: 1px solid #333; }
+        main .phoneContent .phoneContentRight .inter_style dl dd a {
+          display: block;
+          text-align: center;
+          color: #333;
+          width: 176px;
+          height: 42px; }
+      main .phoneContent .phoneContentRight .phone_color dt {
+        font-size: 12px;
+        line-height: 42px;
+        float: left;
+        color: #8c8c8c; }
+      main .phoneContent .phoneContentRight .phone_color dd {
+        float: left;
+        margin-left: 12px;
+        position: relative;
+        float: left;
+        width: 580px;
+        line-height: 42px; }
+        main .phoneContent .phoneContentRight .phone_color dd a {
+          float: left;
+          text-align: center;
+          color: #999;
+          margin: 0 10px 10px 0px;
+          width: 176px;
+          height: 42px;
+          border: 1px solid #bfbfbf; }
+          main .phoneContent .phoneContentRight .phone_color dd a img {
+            padding-top: 5px;
+            display: inline-block;
+            line-height: 42px; }
+          main .phoneContent .phoneContentRight .phone_color dd a span {
+            position: relative;
+            top: -10px;
+            font-size: 12px;
+            display: inline-block; }
+        main .phoneContent .phoneContentRight .phone_color dd .vm-sale-img {
+          border: 1px solid #333; }
+          main .phoneContent .phoneContentRight .phone_color dd .vm-sale-img span {
+            color: #333; }
+      main .phoneContent .phoneContentRight .memory_capacity dt {
+        font-size: 12px;
+        line-height: 42px;
+        float: left;
+        color: #8c8c8c; }
+      main .phoneContent .phoneContentRight .memory_capacity dd {
+        float: left;
+        margin-left: 12px;
+        position: relative;
+        float: left;
+        width: 580px; }
+        main .phoneContent .phoneContentRight .memory_capacity dd a {
+          float: left;
+          text-align: center;
+          color: #999;
+          margin: 0 10px 10px 0px;
+          width: 176px;
+          line-height: 42px;
+          border: 1px solid #bfbfbf; }
+        main .phoneContent .phoneContentRight .memory_capacity dd .memory_capacity_set {
+          border: 1px solid #333;
+          color: #333; }
+      main .phoneContent .phoneContentRight .phone_num dt {
+        font-size: 12px;
+        line-height: 42px;
+        float: left;
+        color: #8c8c8c; }
+        main .phoneContent .phoneContentRight .phone_num dt span {
+          display: inline-block;
+          width: 12px; }
+      main .phoneContent .phoneContentRight .phone_num dd {
+        float: left;
+        margin-left: 12px;
+        position: relative;
+        float: left;
+        border: 1px solid #bfbfbf;
+        width: 102px;
+        text-align: center;
+        line-height: 42px; }
+        main .phoneContent .phoneContentRight .phone_num dd a:first-child {
+          float: left;
+          width: 25px;
+          background: #eee; }
+        main .phoneContent .phoneContentRight .phone_num dd a:last-child {
+          float: left;
+          width: 25px;
+          background: #eee; }
+        main .phoneContent .phoneContentRight .phone_num dd span {
+          float: left;
+          height: 42px;
+          width: 50px;
+          border-left: 1px solid #bfbfbf;
+          border-right: 1px solid #bfbfbf; }
+      main .phoneContent .phoneContentRight .immediately_buy {
+        margin-top: 30px; }
+        main .phoneContent .phoneContentRight .immediately_buy button {
+          display: inline-block;
+          padding: 15px 0px;
+          width: 208px;
+          font-size: 20px;
+          line-height: 24px;
+          margin: 0 20px;
+          border-radius: 10px;
+          border: none;
+          cursor: pointer; }
+        main .phoneContent .phoneContentRight .immediately_buy .immediately_buy_Y {
+          background: #27B3FF;
+          color: #fff; }
+        main .phoneContent .phoneContentRight .immediately_buy .immediately_buy_Y:hover {
+          background: #27BFFF; }
+        main .phoneContent .phoneContentRight .immediately_buy .immediately_buy_N {
+          background: #fff;
+          color: #27B3FF;
+          border: 1px solid #27B3FF; }
+        main .phoneContent .phoneContentRight .immediately_buy .immediately_buy_N:hover {
+          background: #eee; }
+
+.service_description_box {
+  background: #eee;
+  padding-bottom: 20px; }
+  .service_description_box .service_description {
+    width: 1240px;
+    margin: 0 auto; }
+    .service_description_box .service_description .description_text {
+      font-size: 28px;
+      line-height: 42px; }
+
+.meizuFooterBox {
+  background: #fff;
+  width: 100%;
+  padding: 48px 0 20px; }
+  .meizuFooterBox .meizuFooterTop {
+    width: 1240px;
+    height: 85px;
+    margin: 0 auto;
+    border-bottom: 1px #999 solid; }
+    .meizuFooterBox .meizuFooterTop .meizuFooterTopL {
+      float: left; }
+      .meizuFooterBox .meizuFooterTop .meizuFooterTopL a {
+        float: left; }
+        .meizuFooterBox .meizuFooterTop .meizuFooterTopL a dt {
+          margin: 0 50px;
+          width: 50px;
+          height: 39px; }
+          .meizuFooterBox .meizuFooterTop .meizuFooterTopL a dt img {
+            width: 100%; }
+        .meizuFooterBox .meizuFooterTop .meizuFooterTopL a dd {
+          font-size: 12px;
+          color: #999;
+          line-height: 30px;
+          text-align: center; }
+    .meizuFooterBox .meizuFooterTop .meizuFooterTopR {
+      float: right;
+      margin-top: -18px; }
+      .meizuFooterBox .meizuFooterTop .meizuFooterTopR p {
+        color: #999;
+        font-size: 12px;
+        line-height: 30px; }
+      .meizuFooterBox .meizuFooterTop .meizuFooterTopR em {
+        display: block;
+        color: #00c3f5;
+        font-size: 25px;
+        font-weight: 400;
+        margin-top: -6px;
+        line-height: 40px; }
+      .meizuFooterBox .meizuFooterTop .meizuFooterTopR b {
+        display: block;
+        height: 30px;
+        padding: 0 16px;
+        text-align: center;
+        line-height: 30px;
+        color: #fff;
+        border-radius: 20px;
+        margin-top: 3px;
+        font-size: 14px;
+        background: #0bbbef; }
+  .meizuFooterBox .meizuFooterBottom {
+    width: 1240px;
+    margin: 0 auto;
+    padding-top: 28px; }
+    .meizuFooterBox .meizuFooterBottom ul li {
+      padding-right: 15px;
+      border-right: 1px solid #d6d6d6;
+      float: left;
+      font-size: 12px;
+      line-height: 18px;
+      margin-right: 15px; }
+      .meizuFooterBox .meizuFooterBottom ul li a {
+        color: #999; }
+    .meizuFooterBox .meizuFooterBottom ul li:last-child {
+      padding-right: 15px;
+      border-right: 0px solid #d6d6d6;
+      float: left;
+      font-size: 12px;
+      line-height: 18px;
+      margin-right: 15px; }
+      .meizuFooterBox .meizuFooterBottom ul li:last-child a {
+        color: #999; }
+    .meizuFooterBox .meizuFooterBottom .meizuFooterBottomL {
+      font-size: 12px;
+      padding-top: 14px;
+      float: left;
+      color: #999; }
+      .meizuFooterBox .meizuFooterBottom .meizuFooterBottomL a {
+        font-size: 12px;
+        color: #999;
+        padding: 0 5px; }
+      .meizuFooterBox .meizuFooterBottom .meizuFooterBottomL .iconfont {
+        font-size: 12px; }
+    .meizuFooterBox .meizuFooterBottom .meizuFooterBottomR {
+      float: right;
+      padding-top: 14px; }
+      .meizuFooterBox .meizuFooterBottom .meizuFooterBottomR li {
+        float: left; }
+        .meizuFooterBox .meizuFooterBottom .meizuFooterBottomR li a {
+          color: #999; }
+      .meizuFooterBox .meizuFooterBottom .meizuFooterBottomR li:first-child a:hover {
+        color: green; }
+      .meizuFooterBox .meizuFooterBottom .meizuFooterBottomR li:nth-child(3) a:hover {
+        color: green; }
+      .meizuFooterBox .meizuFooterBottom .meizuFooterBottomR li:nth-child(5) a:hover {
+        color: yellow; }
+      .meizuFooterBox .meizuFooterBottom .meizuFooterBottomR li:last-child a:hover {
+        color: red; }
+      .meizuFooterBox .meizuFooterBottom .meizuFooterBottomR b {
+        margin: 0 10px;
+        float: left;
+        color: #999; }

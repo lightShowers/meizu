@@ -414,7 +414,7 @@
 				    opacity: 1;
 				    width:auto;
 					margin:10px auto;
-				    //visibility: hidden;
+				    visibility: hidden;
 				    .active{
 				    	border:1px solid #999;
 				    	border-radius:50%;
@@ -451,6 +451,11 @@
 					border-radius:50%;
 					line-height:60px;
 					text-align:center;
+				}
+			}
+			li:hover{
+				h4{
+					visibility: visible;
 				}
 			}
 		}

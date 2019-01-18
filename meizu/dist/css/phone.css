@@ -333,7 +333,8 @@
           height: 26px;
           opacity: 1;
           width: auto;
-          margin: 10px auto; }
+          margin: 10px auto;
+          visibility: hidden; }
           .contentBox .content .meizuPhone li h4 .active {
             border: 1px solid #999;
             border-radius: 50%; }
@@ -363,6 +364,8 @@
           border-radius: 50%;
           line-height: 60px;
           text-align: center; }
+      .contentBox .content .meizuPhone li:hover h4 {
+        visibility: visible; }
 
 .meizuFooterBox {
   background: #fff;

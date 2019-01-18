@@ -75,7 +75,32 @@ define(['jquery', "jquery-cookie"],function($){
 			})
 			
 		})
+		//核心内容的加载
+		$.ajax({
+			type:'get',
+			url:'../data/goodsDetailData.json',
+			success:function(arr){
+				$(`  <a class="vm-sale-img">
+                                    <img src="${arr[0].color1.img_min}" width="32" height="32">
+                                <span>${arr[0].color1.glod}</span>
+                        </a>
+                        <a>
+                                    <img src="${arr[0].color2.img_min}" width="32" height="32">
+                                <span>${arr[0].color2.glod}</span>
+                        </a>
+                        <a>
+                                    <img src="${arr[0].color3.img_min}" width="32" height="32">
+                                <span>${arr[0].color3.glod}</span>
+                        </a>
+                        <a>
+                                    <img src="${arr[0].color4.img_min}" width="32" height="32">
+                                <span>${arr[0].color4.glod}</span>
+                        </a>`).appendTo($('.vm-metatit .clearfix'));
+			},
+			error:function(msg){
 
+			}
+		})
 
 
 		//购物车
@@ -106,6 +131,29 @@ define(['jquery', "jquery-cookie"],function($){
 					'display':"none",
 				})
 			})
+
+			//设置滚动条高度
+			$("html,body").animate({"scrollTop": "82px"}, 500);
+			$(document).on('scroll',function(){
+				var scrollY = document.documentElement.scrollTop || document.body.scrollTop;
+				var scrimeW = $(window).width() - 1240
+				if(scrollY > 82){
+					$('main h2').css({
+						position:'fixed',
+						top:0,
+						left:scrimeW / 2,
+						opacity:0.7
+					})
+				}else{
+					$('main h2').css({
+						position:'relative',
+						left:0,
+					})
+				}
+			})
+			//
+
+
 			
 			sc_car();
 			//所有商品总数
