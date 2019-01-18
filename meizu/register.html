@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/register.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/iconfont.css">
+	<script src = 'js/require.js' async = "true" defer data-main="js/mainRegister"></script>
+</head>
+<body>
+	<div class="login-logo-top-box">
+		<div class="login-logo-top">
+			<a href="index.html"><span class="iconfont icon-meizu"></span></a>
+		</div>
+	</div>
+	<div class="bannerBox">
+		<div class="banner">
+			<div class="panel-body login">
+					<p>注册页面</p>
+					<div class="form-group">
+						账&ensp;&ensp;&ensp;&ensp;号：<input type="text" class="form-control" name="username" id="username" placeholder="用户名">
+					</div>
+					<div class="alert alert-default alert-dismissible" role="alert" id="userWarning">
+						 请输入6~18位用户名，包括：字母、数字、下划线
+					</div>
+					<div class="form-group">
+					    密&ensp;&ensp;&ensp;&ensp;码：<input type="password" class="form-control" name="password" id="password" placeholder="密码">
+					    
+					</div>
+					<div class="alert alert-default alert-dismissible" role="alert" id="passWarning">
+						 Warning! Better check yourself.
+					</div>
+					
+					<div class="form-group">
+					   确认密码：<input type="password" class="form-control" name="passwordOk" id="passwordOk" placeholder="确认密码">
+					</div>
+					<div class="alert alert-default alert-dismissible" role="alert" id="okWarning">
+						 Warning! Better check yourself.
+					</div>
+					
+					<div class="form-group">
+					   手&ensp;&ensp;&ensp;&ensp;机：<input type="text" class="form-control" name="iPhone" id="iPhone" placeholder="请输入手机号">
+					</div>
+					<div class="alert alert-default alert-dismissible" role="alert" id="phoneWarning">
+						 Warning! Better check yourself.
+					</div>
+					
+					<div class="verification form-group">
+						验&ensp;证&ensp;码：<input style="width:80px" type="text" class="form-control" name="verification" id="verification" placeholder="请输入验证码">
+						<span></span>
+						<a href="#">换一张</a>
+					</div>
+					<button type="submit" id="register" class="btn btn-default btn-lg btn-block" style="background: #1D54F7;color:#fff">注册</button>
+				</div>
+		</div>
+	</div>
+</body>
+</html>

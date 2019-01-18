@@ -1,0 +1,68 @@
+.login-logo-top-box{
+	background:#fff;
+	.login-logo-top{
+		width:1200px;
+		margin:0 auto;
+		a{
+			color:#00b9f2;
+			height:63px;
+			line-height:63px;
+			.iconfont{
+				font-size:20px;
+			}
+		}
+	}
+}
+.bannerBox{
+	background: #ECF9FC;
+	.banner{
+		position:relative;
+		width:1240px;
+		height:750px;
+		margin:0 auto;
+		background:url(../images/loginbanner.png) no-repeat center;
+		.login{
+			width: 340px;
+			position: absolute;
+			top: 100px;
+			right: 85px;
+			background-color: #FFF;
+			padding: 35px 35px 10px;
+			border-radius: 2px;
+			p{
+				font-size:20px;
+				text-align:center;
+				line-height:50px;
+				border-radius:5px;
+				color:#111;
+			}
+
+			.alert-dismissible{
+				font-size:12px;
+				display:none;
+			}
+			.verification{
+				position:relative;
+				span{
+					position:absolute;
+					//top:5px;
+					display:inline-block;
+					width:80px;
+					height:30px;
+					line-height:30px;
+					border-radius:5px;
+					background:#666;
+					color:#fff;
+					margin-top:0px;
+					text-align:center;
+				}
+				a{
+					position:absolute;
+					left:255px;
+					top:5px;
+				}
+			}
+
+		}
+	}
+}

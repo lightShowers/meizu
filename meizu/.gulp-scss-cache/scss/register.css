@@ -1,0 +1,56 @@
+.login-logo-top-box {
+  background: #fff; }
+  .login-logo-top-box .login-logo-top {
+    width: 1200px;
+    margin: 0 auto; }
+    .login-logo-top-box .login-logo-top a {
+      color: #00b9f2;
+      height: 63px;
+      line-height: 63px; }
+      .login-logo-top-box .login-logo-top a .iconfont {
+        font-size: 20px; }
+
+.bannerBox {
+  background: #ECF9FC; }
+  .bannerBox .banner {
+    position: relative;
+    width: 1240px;
+    height: 750px;
+    margin: 0 auto;
+    background: url(../images/loginbanner.png) no-repeat center; }
+    .bannerBox .banner .login {
+      width: 340px;
+      position: absolute;
+      top: 100px;
+      right: 85px;
+      background-color: #FFF;
+      padding: 35px 35px 10px;
+      border-radius: 2px; }
+      .bannerBox .banner .login p {
+        font-size: 20px;
+        text-align: center;
+        line-height: 50px;
+        border-radius: 5px;
+        color: #111; }
+      .bannerBox .banner .login .alert-dismissible {
+        font-size: 12px;
+        display: none; }
+      .bannerBox .banner .login .verification {
+        position: relative; }
+        .bannerBox .banner .login .verification span {
+          position: absolute;
+          display: inline-block;
+          width: 80px;
+          height: 30px;
+          line-height: 30px;
+          border-radius: 5px;
+          background: #666;
+          color: #fff;
+          margin-top: 0px;
+          text-align: center; }
+        .bannerBox .banner .login .verification a {
+          position: absolute;
+          left: 255px;
+          top: 5px; }
+
+/*# sourceMappingURL=register.css.map */

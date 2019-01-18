@@ -35,6 +35,7 @@
 			}
 		}
 		.headerRight{
+			position:relative;
 			float:right;
 			.headerRightF{
 				float:left;
@@ -59,12 +60,59 @@
 					margin:0px 10px 0 10px;
 				}
 			}
+			.meizu-header-user{
+				display:inline-block;
+				position:relative;
+				width:34px;
+				height:56px;
+				float:left;
+				.iconfontwi{
+					display:block;
+					font-size:28px;
+					color:#fff;
+					margin:24px 3px 0px;
+				}
+				.meizu-header-user-list{
+					background:#FFF;
+					width:98px;
+					padding:5px 0;
+					display:none;
+					position:absolute;
+					text-align:center;
+					margin-left:-34px;
+					top:60px;
+					border-radius:5px;
+					li{
+						padding:15px 0;
+						a{
+							color:#999;
+							font-size:12px;
+						}
+					}
+				}
+			}
+			.meizu-header-user:hover .meizu-header-user-list{
+				display:block;
+			}
 			.iconfontwi{
 				float:left;
 				font-size:28px;
 				color:#fff;
 				margin:24px 3px 0px;
 			}
+			.meizu-header-buy-num{
+					position:absolute;
+					top:20px;
+					right:0;
+					height:14px;
+					width:14px;
+					background:red;
+					color:#fff;
+					text-align:center;
+					line-height:10px;
+					border-radius:50%;
+					font-size:10px;
+				}
 		}
 	}
 
@@ -120,7 +168,7 @@
 	position:relative;
 	top:-82px;
 	z-index:0;
-	width:1903px;
+	width:100%;
 	height:670px;
 	overflow:hidden;
 	.headerBanner{
@@ -138,11 +186,12 @@
 			a{
 				width:100%;
 				float:left;
-
+				display:block;
 				img{
-					height:100%;
+					width:100%;
+					height:670px;
 					float:left;
-					margin-left:-14%;
+					margin-left:0%;
 				}
 			}
 		}
@@ -488,7 +537,7 @@
 			}
 		}
 		li:hover{
-			transform: translate(2px, -3px);
+			transform: translate(-3px);
 			transition:0.5s;
 			box-shadow: 0px 0px 10px #888;
 		}

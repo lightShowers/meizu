@@ -1,0 +1,475 @@
+.headerNavBox {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  color: #fff; }
+  .headerNavBox .headerNav {
+    width: 1240px;
+    margin: 0 auto; }
+    .headerNavBox .headerNav .headerLeft {
+      float: left; }
+      .headerNavBox .headerNav .headerLeft .iconfont {
+        font-size: 24px;
+        line-height: 80px;
+        color: #00B4FF; }
+    .headerNavBox .headerNav .headercenter {
+      float: right; }
+      .headerNavBox .headerNav .headercenter li {
+        float: left; }
+        .headerNavBox .headerNav .headercenter li a {
+          display: block;
+          font-size: 14px;
+          color: #666;
+          line-height: 82px;
+          padding: 0 20px; }
+        .headerNavBox .headerNav .headercenter li a:hover {
+          color: #00b9f2; }
+        .headerNavBox .headerNav .headercenter li .aCss {
+          color: #666; }
+    .headerNavBox .headerNav .headerRight {
+      float: right;
+      width: 274px;
+      position: relative; }
+      .headerNavBox .headerNav .headerRight .headerRightF {
+        float: left;
+        position: absolute;
+        margin: 24px 5px 0 10px;
+        line-height: 29px;
+        border-radius: 20px;
+        width: 176px;
+        border: 1px solid #999;
+        background: #fff; }
+        .headerNavBox .headerNav .headerRight .headerRightF #headerSearch {
+          height: 20px;
+          width: 125px;
+          display: inline-block;
+          float: left;
+          font-size: 14;
+          border: none;
+          outline: none;
+          margin: 5px 0 0 15px; }
+        .headerNavBox .headerNav .headerRight .headerRightF .iconfont {
+          float: right;
+          display: inline-block;
+          color: #666;
+          font-size: 16px;
+          margin: 0px 10px 0 10px; }
+        .headerNavBox .headerNav .headerRight .headerRightF ul {
+          position: relative;
+          top: 0;
+          display: none;
+          z-index: 10;
+          padding: 20px 0 15px; }
+          .headerNavBox .headerNav .headerRight .headerRightF ul li {
+            padding: 3px 0px; }
+            .headerNavBox .headerNav .headerRight .headerRightF ul li a {
+              display: block;
+              color: #999;
+              font-size: 12px;
+              padding: 0 10px; }
+              .headerNavBox .headerNav .headerRight .headerRightF ul li a span {
+                float: right; }
+            .headerNavBox .headerNav .headerRight .headerRightF ul li a:hover {
+              color: #00b9f2;
+              background: #eee; }
+      .headerNavBox .headerNav .headerRight .meizu-header-user {
+        display: inline-block;
+        position: relative;
+        right: 34px;
+        width: 34px;
+        height: 56px;
+        float: right; }
+        .headerNavBox .headerNav .headerRight .meizu-header-user .iconfontwi {
+          display: block;
+          font-size: 28px;
+          color: #666;
+          float: right;
+          margin: 24px 3px 0px; }
+        .headerNavBox .headerNav .headerRight .meizu-header-user .meizu-header-user-list {
+          background: #FFF;
+          width: 98px;
+          padding: 5px 0;
+          display: none;
+          position: absolute;
+          text-align: center;
+          margin-left: -34px;
+          top: 60px;
+          border-radius: 5px; }
+          .headerNavBox .headerNav .headerRight .meizu-header-user .meizu-header-user-list li {
+            padding: 10px 0; }
+            .headerNavBox .headerNav .headerRight .meizu-header-user .meizu-header-user-list li a {
+              color: #666;
+              font-size: 12px; }
+      .headerNavBox .headerNav .headerRight .meizu-header-user:hover .meizu-header-user-list {
+        display: block; }
+      .headerNavBox .headerNav .headerRight .meizu-header-buy {
+        position: absolute;
+        right: 0;
+        top: 23px; }
+        .headerNavBox .headerNav .headerRight .meizu-header-buy .iconfontwi {
+          font-size: 28px;
+          color: #666;
+          margin: 24px 3px 0px; }
+        .headerNavBox .headerNav .headerRight .meizu-header-buy .meizu-header-buy-list {
+          height: 0;
+          overflow: hidden;
+          position: absolute;
+          width: 298px;
+          right: 0;
+          display: none;
+          margin-top: 20px;
+          top: 30px;
+          background: #fff;
+          border-radius: 4px;
+          border: 1px solid #eee; }
+          .headerNavBox .headerNav .headerRight .meizu-header-buy .meizu-header-buy-list h3 {
+            color: #666;
+            display: block;
+            font-size: 12px;
+            margin-top: 15px;
+            padding-left: 25px; }
+          .headerNavBox .headerNav .headerRight .meizu-header-buy .meizu-header-buy-list ul {
+            border-bottom: 1px solid #eee;
+            display: block; }
+            .headerNavBox .headerNav .headerRight .meizu-header-buy .meizu-header-buy-list ul dl {
+              padding: 14px 0px; }
+              .headerNavBox .headerNav .headerRight .meizu-header-buy .meizu-header-buy-list ul dl dt {
+                float: left;
+                width: 48px;
+                height: 48px;
+                padding-left: 18px;
+                margin-right: 5px; }
+                .headerNavBox .headerNav .headerRight .meizu-header-buy .meizu-header-buy-list ul dl dt img {
+                  width: 100%;
+                  height: 100%; }
+              .headerNavBox .headerNav .headerRight .meizu-header-buy .meizu-header-buy-list ul dl dd {
+                float: left;
+                padding-top: 5px; }
+                .headerNavBox .headerNav .headerRight .meizu-header-buy .meizu-header-buy-list ul dl dd a {
+                  width: 130px;
+                  display: block; }
+                  .headerNavBox .headerNav .headerRight .meizu-header-buy .meizu-header-buy-list ul dl dd a p {
+                    color: #666;
+                    font-size: 12px;
+                    width: 130px;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    margin-bottom: 6px; }
+                  .headerNavBox .headerNav .headerRight .meizu-header-buy .meizu-header-buy-list ul dl dd a em {
+                    display: block;
+                    width: 130px;
+                    color: #999;
+                    font-size: 12px;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    margin-bottom: 6px; }
+              .headerNavBox .headerNav .headerRight .meizu-header-buy .meizu-header-buy-list ul dl li {
+                color: #666;
+                float: right;
+                padding: 10px 10px 0 0; }
+                .headerNavBox .headerNav .headerRight .meizu-header-buy .meizu-header-buy-list ul dl li p {
+                  font-size: 12px; }
+                .headerNavBox .headerNav .headerRight .meizu-header-buy .meizu-header-buy-list ul dl li a {
+                  font-size: 12px;
+                  float: right;
+                  display: none; }
+            .headerNavBox .headerNav .headerRight .meizu-header-buy .meizu-header-buy-list ul dl:hover {
+              background: #eee; }
+              .headerNavBox .headerNav .headerRight .meizu-header-buy .meizu-header-buy-list ul dl:hover dd a p {
+                color: #00beff; }
+              .headerNavBox .headerNav .headerRight .meizu-header-buy .meizu-header-buy-list ul dl:hover dd a em {
+                color: #00beff; }
+              .headerNavBox .headerNav .headerRight .meizu-header-buy .meizu-header-buy-list ul dl:hover li a {
+                display: block; }
+          .headerNavBox .headerNav .headerRight .meizu-header-buy .meizu-header-buy-list h2 {
+            display: block;
+            color: #999;
+            height: 66px;
+            line-height: 66px;
+            padding: 0 15px; }
+            .headerNavBox .headerNav .headerRight .meizu-header-buy .meizu-header-buy-list h2 p {
+              float: left;
+              font-size: 12px; }
+              .headerNavBox .headerNav .headerRight .meizu-header-buy .meizu-header-buy-list h2 p span {
+                color: red; }
+            .headerNavBox .headerNav .headerRight .meizu-header-buy .meizu-header-buy-list h2 a {
+              margin-top: 15px;
+              line-height: 36px;
+              padding: 0 14px;
+              background: #00beff;
+              float: right;
+              font-size: 14px;
+              color: #fff;
+              border-radius: 5px; }
+        .headerNavBox .headerNav .headerRight .meizu-header-buy .meizu-header-buy-num {
+          position: absolute;
+          top: 0;
+          right: 0;
+          height: 14px;
+          width: 14px;
+          background: red;
+          color: #fff;
+          text-align: center;
+          line-height: 10px;
+          border-radius: 50%;
+          font-size: 10px; }
+  .headerNavBox .headeListBox {
+    background-color: #fff;
+    position: absolute;
+    z-index: 2;
+    width: 100%; }
+    .headerNavBox .headeListBox .headerList {
+      width: 1240px;
+      margin: 0 auto;
+      height: 0;
+      overflow: hidden;
+      position: relative; }
+      .headerNavBox .headeListBox .headerList .headerlist {
+        padding-bottom: 10px; }
+        .headerNavBox .headeListBox .headerList .headerlist a {
+          float: left;
+          margin: 0 5px;
+          cursor: pointer; }
+          .headerNavBox .headeListBox .headerList .headerlist a dt {
+            width: 120px;
+            padding: 0 6px;
+            margin-right: 10px;
+            height: 120px;
+            margin-bottom: 4px; }
+            .headerNavBox .headeListBox .headerList .headerlist a dt img {
+              width: 100%; }
+          .headerNavBox .headeListBox .headerList .headerlist a dd {
+            font-size: 12px;
+            color: #000;
+            width: 120px;
+            text-align: center;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            padding: 0 6px; }
+
+.bannerBox {
+  position: relative;
+  z-index: -100;
+  background: url(../images/banner0.jpg) no-repeat; }
+
+.contentBox {
+  width: 100%;
+  padding-bottom: 50px;
+  background: #eee; }
+  .contentBox .content {
+    width: 1240px;
+    margin: 0 auto; }
+    .contentBox .content h2 {
+      padding-top: 87px;
+      margin-bottom: 25px;
+      font-size: 30px; }
+      .contentBox .content h2 a {
+        font-size: 22px;
+        color: #999;
+        float: right;
+        margin: 0 8px; }
+    .contentBox .content .meizuPhone {
+      width: 1240px;
+      background: #999; }
+      .contentBox .content .meizuPhone li {
+        width: 402px;
+        padding-top: 40px;
+        padding-bottom: 28px;
+        max-height: 556px;
+        float: left;
+        margin: 10px 5px 0 5px;
+        background-color: #FFF;
+        position: relative; }
+        .contentBox .content .meizuPhone li div {
+          text-align: center;
+          margin-top: 10px;
+          padding: 0 41px; }
+          .contentBox .content .meizuPhone li div h3 {
+            font-size: 24px;
+            line-height: 34px;
+            color: #333; }
+          .contentBox .content .meizuPhone li div em {
+            margin: 5px auto;
+            color: #666;
+            font-size: 16px;
+            margin-bottom: 3px;
+            line-height: 27px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden; }
+          .contentBox .content .meizuPhone li div p {
+            position: relative;
+            display: inline-block;
+            color: #c00;
+            font-size: 28px;
+            padding-top: 5px; }
+          .contentBox .content .meizuPhone li div .buy-btn {
+            display: inline-block;
+            padding-top: 0;
+            height: 36px;
+            width: 70px;
+            border: none;
+            font-size: 16px;
+            outline: none;
+            border-radius: 5px;
+            background: #0bbbef;
+            margin-left: 14px;
+            color: #fff; }
+        .contentBox .content .meizuPhone li dt {
+          padding-left: 40px;
+          width: 320px;
+          height: 320px; }
+          .contentBox .content .meizuPhone li dt img {
+            width: 100%;
+            height: 100%;
+            display: none; }
+          .contentBox .content .meizuPhone li dt .active {
+            display: block; }
+        .contentBox .content .meizuPhone li h4 {
+          display: block;
+          height: 26px;
+          opacity: 1;
+          width: auto;
+          margin: 10px auto; }
+          .contentBox .content .meizuPhone li h4 .active {
+            border: 1px solid #999;
+            border-radius: 50%; }
+          .contentBox .content .meizuPhone li h4 span {
+            float: left;
+            display: inline-block;
+            height: 20px;
+            width: 20px;
+            margin: 0 10px;
+            border-radius: 50%;
+            border: 1px solid #FFF; }
+            .contentBox .content .meizuPhone li h4 span img {
+              padding: 2px;
+              display: block;
+              width: 100%;
+              height: 100%; }
+          .contentBox .content .meizuPhone li h4 span:hover {
+            cursor: pointer; }
+        .contentBox .content .meizuPhone li dd {
+          height: 60px;
+          width: 60px;
+          background-color: red;
+          position: absolute;
+          top: 20px;
+          left: 20px;
+          color: #fff;
+          border-radius: 50%;
+          line-height: 60px;
+          text-align: center; }
+
+.meizuFooterBox {
+  background: #fff;
+  width: 100%;
+  padding: 48px 0 20px; }
+  .meizuFooterBox .meizuFooterTop {
+    width: 1240px;
+    height: 85px;
+    margin: 0 auto;
+    border-bottom: 1px #999 solid; }
+    .meizuFooterBox .meizuFooterTop .meizuFooterTopL {
+      float: left; }
+      .meizuFooterBox .meizuFooterTop .meizuFooterTopL a {
+        float: left; }
+        .meizuFooterBox .meizuFooterTop .meizuFooterTopL a dt {
+          margin: 0 50px;
+          width: 50px;
+          height: 39px; }
+          .meizuFooterBox .meizuFooterTop .meizuFooterTopL a dt img {
+            width: 100%; }
+        .meizuFooterBox .meizuFooterTop .meizuFooterTopL a dd {
+          font-size: 12px;
+          color: #999;
+          line-height: 30px;
+          text-align: center; }
+    .meizuFooterBox .meizuFooterTop .meizuFooterTopR {
+      float: right;
+      margin-top: -18px; }
+      .meizuFooterBox .meizuFooterTop .meizuFooterTopR p {
+        color: #999;
+        font-size: 12px;
+        line-height: 30px; }
+      .meizuFooterBox .meizuFooterTop .meizuFooterTopR em {
+        display: block;
+        color: #00c3f5;
+        font-size: 25px;
+        font-weight: 400;
+        margin-top: -6px;
+        line-height: 40px; }
+      .meizuFooterBox .meizuFooterTop .meizuFooterTopR b {
+        display: block;
+        height: 30px;
+        padding: 0 16px;
+        text-align: center;
+        line-height: 30px;
+        color: #fff;
+        border-radius: 20px;
+        margin-top: 3px;
+        font-size: 14px;
+        background: #0bbbef; }
+  .meizuFooterBox .meizuFooterBottom {
+    width: 1240px;
+    margin: 0 auto;
+    padding-top: 28px; }
+    .meizuFooterBox .meizuFooterBottom ul li {
+      padding-right: 15px;
+      border-right: 1px solid #d6d6d6;
+      float: left;
+      font-size: 12px;
+      line-height: 18px;
+      margin-right: 15px; }
+      .meizuFooterBox .meizuFooterBottom ul li a {
+        color: #999; }
+    .meizuFooterBox .meizuFooterBottom ul li:last-child {
+      padding-right: 15px;
+      border-right: 0px solid #d6d6d6;
+      float: left;
+      font-size: 12px;
+      line-height: 18px;
+      margin-right: 15px; }
+      .meizuFooterBox .meizuFooterBottom ul li:last-child a {
+        color: #999; }
+    .meizuFooterBox .meizuFooterBottom .meizuFooterBottomL {
+      font-size: 12px;
+      padding-top: 14px;
+      float: left;
+      color: #999; }
+      .meizuFooterBox .meizuFooterBottom .meizuFooterBottomL a {
+        font-size: 12px;
+        color: #999;
+        padding: 0 5px; }
+      .meizuFooterBox .meizuFooterBottom .meizuFooterBottomL .iconfont {
+        font-size: 12px; }
+    .meizuFooterBox .meizuFooterBottom .meizuFooterBottomR {
+      float: right;
+      padding-top: 14px; }
+      .meizuFooterBox .meizuFooterBottom .meizuFooterBottomR li {
+        float: left; }
+        .meizuFooterBox .meizuFooterBottom .meizuFooterBottomR li a {
+          color: #999; }
+      .meizuFooterBox .meizuFooterBottom .meizuFooterBottomR li:first-child a:hover {
+        color: green; }
+      .meizuFooterBox .meizuFooterBottom .meizuFooterBottomR li:nth-child(3) a:hover {
+        color: green; }
+      .meizuFooterBox .meizuFooterBottom .meizuFooterBottomR li:nth-child(5) a:hover {
+        color: yellow; }
+      .meizuFooterBox .meizuFooterBottom .meizuFooterBottomR li:last-child a:hover {
+        color: red; }
+      .meizuFooterBox .meizuFooterBottom .meizuFooterBottomR b {
+        margin: 0 10px;
+        float: left;
+        color: #999; }
+
+#ball {
+  width: 50px;
+  height: 50px;
+  background-color: #0BBBEF;
+  border-radius: 50%;
+  position: absolute;
+  display: none; }

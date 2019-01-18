@@ -282,7 +282,20 @@ define(['jquery', "jquery-cookie"],function($){
 				//$('.sidebarBox').css('top',scrollTop + 400)
 		})
 
-
+		function sc_car(){
+				var cookieStr = $.cookie("goods");
+				if(cookieStr){
+					var arr = eval(cookieStr);
+					var sum = 0;//计数
+					for(var i = 0; i < arr.length; i++){
+						sum += arr[i].num;
+					}
+					$('.meizu-header-buy-num').html(sum);
+				}else{
+					$('.meizu-header-buy-num').html(0);
+				}
+			}
+		sc_car();	
 	}
 	return {
 		index:index
